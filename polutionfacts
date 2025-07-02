@@ -1,0 +1,17 @@
+import random
+def factchoosing():
+    fact = ""
+    factnum = random.randint(1,10)
+
+    if factnum == 1:
+        fact = "**Setiap tahun, pencemaran udara menyebabkan lebih dari 7 juta kematian dini di seluruh dunia**"
+    elif factnum == 2:
+        fact = "**Mikroplastik telah ditemukan dalam garam, air minum, bahkan di dalam tubuh manusia**"
+    elif factnum == 3:
+        fact = "**Sekitar 1 dari 4 kematian di dunia terkait dengan pencemaran lingkungan**"
+    elif factnum == 4:
+        fact = "**Satu kantong plastik bisa butuh hingga 500 tahun untuk terurai**"
+    elif factnum == 5:
+        fact = "**Lebih dari 8 juta ton sampah plastik masuk ke laut setiap tahun**"
+
+    return fact
