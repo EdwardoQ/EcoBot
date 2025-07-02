@@ -65,4 +65,8 @@ async def sumberpolusi(ctx):
 async def tipspolusi(ctx):
     await ctx.send(tipschoosing())
 
+@bot.command()
+async def faktapolusi(ctx):
+    await ctx.send(factchoosing())
+    
 bot.run("...")
